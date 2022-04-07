@@ -29,8 +29,8 @@ class Modal extends Component {
           }
         }}
       >
-        <div className={s.Modal}>
-          <img src={data.largeUrl} alt={data.name} />
+        <div >
+          <img className={s.Modal} src={data.largeUrl} alt={data.name} />
         </div>
       </div>
     );
